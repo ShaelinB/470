@@ -1,1 +1,2 @@
-# 470 - Physical Comp & Alt Interfaces
+# Homework 0: Introduction and Setup
+
