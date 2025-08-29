@@ -37,6 +37,10 @@ Step 6: Connect the black wire to the ground pin on the Arduino and put the othe
 
 We're going to use the black wire for ground.
 
+<img src="Step 6.jpeg" alt="Step 6" width = 500>
+
+Step 7: Add a jumper wire from the cathode to the negative long bus line.
+
 <img src="Step 7.jpeg" alt="Step 7" width = 500>
 
 ## Setting Up the Software
