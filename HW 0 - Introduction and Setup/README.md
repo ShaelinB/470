@@ -4,7 +4,7 @@ Hello there, come with me as I set up my Arduino Uno for the first time.
 
 ## Unboxing
 
-The Arduino kit come inside this box and inside there's an assorment of components.
+The Arduino kit comes inside this box and inside there's an assortment of components.
 
 <img src="Box.jpg" alt="Arduino Box" width = 500>
 
@@ -31,13 +31,13 @@ The book first asks you to choose the serial port.
 Mine only had one and it popped up right away so I had no problems with that.
 But if it didn't I would have to try all of them until it worked.
 It then asked you to open up the Blink Sketch and upload it to your Arduino.
-The Blink Sketch is a program that repetitevly turns the LED on the Arduino on and off. 
+The Blink Sketch is a program that repetitively turns the LED on the Arduino on and off. 
 
 <img src="BlinkCode.png" alt="Blink Code" width = 500>
 
 Though before I uploaded the sketch the Arduino was already blinking.
-According to the book sometimes a brand new Arduino is already programmed with that sketch.
-So, in order to see if it is working they recomend to lower the delay time. 
+According to the book, sometimes a brand new Arduino is already programmed with that sketch.
+So, in order to see if it is working they recommend lowering the delay time. 
 In the video below you are able to see that it first blinks slowly, then in the second half it blinks faster.
 
 [![Arduino Blinking](https://img.youtube.com/vi/vZMt2Qd4OW4/0.jpg)](https://www.youtube.com/watch?v=vZMt2Qd4OW4)
