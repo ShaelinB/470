@@ -3,7 +3,7 @@ Hello there, come with me as I make a Spaceship Interface.
 
 ## Materials
 
-The materials needed for this project were the Arduino Uno, breadboard, 3 220 ohm resistor, 1 10Kohm resistor, jumper wires, 1 button, 2 red LEDs, and 1 green LED.
+The materials needed for this project were the Arduino Uno, breadboard, 3 220 ohm resistor, 1 10 Kohm resistor, jumper wires, 1 button, 2 red LEDs, and 1 green LED.
 
 <img src="Materials.jpeg" alt="Materials" width = 500>
 
@@ -11,73 +11,49 @@ The materials needed for this project were the Arduino Uno, breadboard, 3 220 oh
 
 Before building the circuit I had to make sure any battery or USB was disconnected.
 
-Step 1: I connected the three LEDs using a jumper wire and connecting it from the anode to pins 3, 4, and 5.
+Step 1: I connected the three LEDs using a jumper wire and connected it from the anode to pins 3, 4, and 5.
 
 3 is green, 4 and 5 are red.
 
-<img src="Conntecting LEDs.jpeg" alt="Connecting LEDs" width = 500>
+Then attach the 220 ohm resistor to the ground and the cathode of the LED.
 
-Step 2: I placed the switch across the center of the board. The legs pointed away from the center.
+<img src="Connecting LEDs.jpeg" alt="Connecting LEDs" width = 500>
 
-<img src="Step 2.jpeg" alt="Step 2" width = 500>
+Step 2: I placed the button into the bread board with the legs facing away from the center.
+Then I attached one side to power using a jumper cable and the other side to a 10 Kohm resistor and jumper cable that leads into pin 2.
 
-Step 3: I placed a 220 ohm resistor to connect power to the positive long bus line to one side of the switch.
+<img src="Connecting Switch.jpeg" alt="Connecting Switch" width = 500>
 
-<img src="Step 3.jpeg" alt="Step 3" width = 500>
+Step 3: I connected power and ground to the bread board from the 5V and GND pin.
 
-Step 4: I added a LED below the left side of the switch with the anode (long leg) facing the top of the board and the cathode (short leg) facing the bottom. 
+<img src="Final.jpeg" alt="Final" width = 500>
 
-<img src="Step 4.jpeg" alt="Step 4" width = 500>
+Step 4: I uploaded the code provided for this exercise to the Arduino.
 
-Step 5: I placed a jumper wire from the bottom left of the switch to the anode.
+<img src="Initial.png" alt="Initial Code" width = 500>
 
-<img src="Step 5.jpeg" alt="Step 5" width = 500>
+Now I have a completed Spaceship Interface. 
+If I hit the button the green light will turn off and the red lights will blink in an alternative pattern.
 
-Step 6: I connected the black wire to the ground pin on the Arduino and put the other end in the pin next to the red wire making sure it's in the negative long bus line in the breadboard. 
+The video below demonstrates this.
 
-The black wire is used for ground.
+[![Spaceship Interface](https://img.youtube.com/vi/6eJ39kdwDro/0.jpg)](https://youtu.be/6eJ39kdwDro)
 
-<img src="Step 6.jpeg" alt="Step 6" width = 500>
+## Spaceship Interface Challenge
 
-Step 7: I added a jumper wire from the cathode to the negative long bus line.
+The challenge was to add a green LED that blinks whenever the button is not pressed.
 
-<img src="Step 7.jpeg" alt="Step 7" width = 500>
+In order to make this work, I had to add another LED and change the code a little bit.
+For the code I just had to change the number that represented which pin it was in. I also had to add in code that caused the 2nd green LED to blink.
+I did this by changing the value of the 2nd LED and switching it once a certain amount of time has passed.
 
-Now I have a completed circuit. 
-If I hit the button the circuit will be closed and light the LED.
+<img src="Challenge.png" alt="Challenge Code" width = 500>
 
-The video below demonstrates that.
+The video below demonstrates this.
 
-[![LED Circuit](https://img.youtube.com/vi/xkGslWw7OxY/0.jpg)](https://youtu.be/xkGslWw7OxY)
-
-## Series Circuit
-
-Now I'm going to show you a series circuit.
-
-[![LED Series Circuit](https://img.youtube.com/vi/zxkcj5QQifY/0.jpg)](https://youtu.be/zxkcj5QQifY)
-
-As you can see the series circuit involves two buttons. 
-A series circuit is when electrical current runs through both switches at the same time.
-Think of a series circuit as an AND gate. 
-You need both buttons to be pressed in order for the LED to light up.
-
-## Parallel Circuit
-
-Now there is also a parallel circuit.
-
-[![LED Parallel Circuit](https://img.youtube.com/vi/axod5nDe9mM/0.jpg)](https://youtu.be/axod5nDe9mM)
-
-It still has two buttons like a series circuit but instead of it being like an AND gate it's an OR gate. 
-A parallel circuit is when electrical current is split between two switches.
-Only one of the buttons needs to be held in order for the LED to light up.
-Though it still lights up when both are pressed. 
+[![SpaceShip Interface Challenge](https://img.youtube.com/vi/e3WiqyTnCoo/0.jpg)](https://youtu.be/e3WiqyTnCoo)
 
 ## Summary
 
-Overall, in this chapter I learned how to make a circuit that involves interactivity in order for something to happen. 
-In this case lighting up an LED. 
-I also learned the difference between a series and parallel circuit. 
-While doing the project a lot of it was pretty straight forward the main problem for me was trying to figure out which one was the 220 ohm resistor. 
-I used the chart in the book but the colors looked very similar. 
-Overall, it was an educational experience. 
-
+Overall, in this chapter I learned how to make a Spaceship Interface that involves changing the values of LEDs when a button is pressed.
+I also decided to put the resistors into small bags and label the bags so it's not a struggle in future exercises to figure out which one is which. 
