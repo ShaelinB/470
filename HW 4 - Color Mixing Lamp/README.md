@@ -60,7 +60,7 @@ This is because you are creating a voltage difference between the cathode and th
 
 The video below demonstrates this.
 
-[![LoveOMeter](https://img.youtube.com/vi/iCEHMdfk0LM/0.jpg)](https://youtu.be/iCEHMdfk0LM)
+[![Color Mixing Lamp](https://img.youtube.com/vi/iCEHMdfk0LM/0.jpg)](https://youtu.be/iCEHMdfk0LM)
 ## Summary
 
 Overall, in this chapter I learned how to make a Color Mixing Lamp that fades colors due to voltage difference between the cathode and PWM pins.
