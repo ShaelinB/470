@@ -54,7 +54,7 @@ Step 5: I uploaded the code provided for this exercise to the Arduino.
 <img src="Code 2.png" alt="Code Part 2" width = 500>
 
 
-Now I have a completed the Color Mixing Lamp. 
+Now I have completed the Color Mixing Lamp. 
 As you can see the LED fades between colors.
 This is because you are creating a voltage difference between the cathode and the PWM pins.
 
