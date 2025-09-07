@@ -20,7 +20,7 @@ Step 1: I connected power and ground to the breadboard from the 5V and GND pin.
 <img src="Connecting Power.jpeg" alt="Connecting Power" width = 500>
 
 Step 2: I connected my piezo to the breadboard and connected one end to ground and the other end to digital pin 8.
-Piezo's are not polarized so it doesn't matter what side is connected to what.
+Piezos are not polarized so it doesn't matter what side is connected to what.
 
 <img src="Connecting Piezo.jpeg" alt="Connecting Piezo" width = 500>
 
