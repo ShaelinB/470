@@ -1,4 +1,4 @@
-# HW 7: Digital Hourglass
+# HW 8: Digital Hourglass
 Hello there, come with me as I make a Digital Hourglass.
 
 ## Materials
