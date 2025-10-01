@@ -49,4 +49,4 @@ Below is also a schematic view of the project as well.
 ## Summary
 
 Overall, in this chapter I learned how to make a Touchy-Feely Lamp that activates an LED when a wire is touching metal foil.
-It also makes your finger feel weird if your holding the metal foil while it's on. 
+It also makes your finger feel weird if you're holding the metal foil while it's on. 
