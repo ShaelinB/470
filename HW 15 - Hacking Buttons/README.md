@@ -23,7 +23,7 @@ Step 2: I connected the temperature sensor to the breadboard. The left pin went 
 
 <img src="Connecting Temperature Sensor.jpeg" alt="Connecting Temperature Sensor" width = 500>
 
-Step 3: Then I connected the optocoupler. There is a dot indicating which pin is the first one. The first pin which is the top left goes to ground through a 220 ohm resistor. The middle left pin went to gound. While the middle and bottom right pins go to the device. Specifically, the middle right one would go the grounded side of the fork while the bottom right goes to the other side. 
+Step 3: Then I connected the optocoupler. There is a dot indicating which pin is the first one. The first pin which is the top left goes to ground through a 220 ohm resistor. The middle left pin went to ground. While the middle and bottom right pins go to the device. Specifically, the middle right one would go the grounded side of the fork while the bottom right goes to the other side. 
 
 <img src="Final.jpeg" alt="Final" width = 500>
 
