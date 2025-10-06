@@ -18,17 +18,38 @@
 */
 
 const int optoPin = 2;  // the pin the optocoupler is connected to
+const int sensorPin = A0;
+int sensorVal;
+float temperature;
+bool fanState = 0;
 
 void setup() {
+  Serial.begin(9600);
   // make the pin with the optocoupler an output
   pinMode(optoPin, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(optoPin, HIGH);  // pull pin 2 HIGH, activating the optocoupler
+  sensorVal = analogRead(sensorPin);
+  temperature = ((sensorVal * 5 / 1024.0) - 0.5) * 100;
+  Serial.print("Temperature: ");
+  Serial.println(temperature);
 
-  delay(15);  // give the optocoupler a moment to activate
+  if (temperature >= 25 && fanState == 0) {
+    digitalWrite(optoPin, HIGH);  // pull pin 2 HIGH, activating the optocoupler
 
-  digitalWrite(optoPin, LOW);  // pull pin 2 low until you're ready to activate again
-  delay(21000);                // wait for 21 seconds
+    delay(15);  // give the optocoupler a moment to activate
+
+    digitalWrite(optoPin, LOW);  // pull pin 2 low until you're ready to activate again
+    fanState = 1;                //the fan is on
+    delay(10000);                // wait for 10 seconds
+  } else if (temperature < 25 && fanState == 1) {
+    digitalWrite(optoPin, HIGH);  // pull pin 2 HIGH, activating the optocoupler
+
+    delay(15);  // give the optocoupler a moment to activate
+
+    digitalWrite(optoPin, LOW);  // pull pin 2 low until you're ready to activate again
+    fanState = 0;                //the fan is on
+    delay(10000);                // wait for 10 seconds
+  }
 }
