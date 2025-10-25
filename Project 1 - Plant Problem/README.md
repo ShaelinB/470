@@ -116,8 +116,7 @@ As you can see in the images and videos, I put the water and plant in a pan so i
 If I were to make this again I'd definetly get female jumper wires.
 
 To learn more about the process check out the Post Mortem video down below.
-[![Post Mortem](https://img.youtube.com/vi/bq0AMp_lBsw/0.jpg)](https://youtu.be/bq0AMp_lBsw)
-
+[![Post Mortem](https://img.youtube.com/vi/ktTKRMgm1wY/0.jpg)](https://youtu.be/ktTKRMgm1wY)
 ## Resources
 
 Automatic Irrigation DIY Kit Self Watering System Capacitive Soil Moisture Sensor 1 Channel 5V Relay Module and Water Pump with 2pcs 1M Vinyl Tubing for Arduino Moisture Detection Garden Watering DIY: 
