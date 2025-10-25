@@ -12,7 +12,21 @@ Initially, I thought the only materials I needed were the Arduino Uno, a moistur
 <img src="Materials.png" alt="Materials" width = 500>
 
 As I was making this, I realized I was wrong.
-The final parts list included the initial list plus tape, the black piece on the male headers, a screwdriver, scissors, and a pan.
+The final parts list included: 
+- Arduino Uno
+- Moisture sensor
+- An external battery (I used a 6V battery holder so I also needed 4 AA batteries)
+- 5V relay
+- Water pump
+- Tubing
+- Jumper wires
+- A plant
+- A bowl with water
+- Tape
+- The black piece on the male headers
+- Screwdriver
+- Scissors
+- Pan
 
 I realized during the process I should’ve gotten female jumper wires. Then I wouldn’t have needed as much tape. It also would’ve made connecting everything easier.
 
@@ -26,6 +40,7 @@ The GND pin on the sensor went to GND.
 The AOUT pin on the sensor went to A0.
 The kit gave me a female jumper wire, but I realized it wouldn’t reach my plant.
 So, I stuck jumper wires into one end and attached them to the Arduino in the corresponding pins.
+
 <img src="Moisture Sensor.jpeg" alt="Moisture Sensor" width = 500>
 
 Step 2: I connected the 5V relay to the Arduino, water pump, and power.
