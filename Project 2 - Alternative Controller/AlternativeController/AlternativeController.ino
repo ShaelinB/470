@@ -1,33 +1,34 @@
-int xPin = A0;  // X-axis along handle (toward you)
+int xPin = A0;
 
-bool flipped = false;  // tracks whether a flip has occurred
+bool flipped = false;
 
-int flipThreshold = 800;    // X rises above this → flip detected
-int resetThreshold = 750;   // X drops below this → reset for next flip
+int flipThreshold = 800;    
+int resetThreshold = 750;
 
-unsigned long lastFlipTime = 0;  // Timestamp of last flip
-unsigned long flipCooldown = 500; // 500 ms cooldown
+unsigned long lastFlipTime = 0;
+unsigned long flipCooldown = 500;
 
 void setup() {
-  Serial.begin(9600);  // Open serial communication
+  Serial.begin(9600);
 }
 
 void loop() {
-  int xVal = analogRead(xPin);  // raw X value
+  //gets the voltage from the X pin
+  int xVal = analogRead(xPin);
   unsigned long currentTime = millis();
 
-  // Detect flip with cooldown
+  //checks if a flip occurs when the x value goes above and amount and if some amount of time passes
   if (xVal > flipThreshold && !flipped && (currentTime - lastFlipTime > flipCooldown)) {
-    flipped = true; // flip detected
+    flipped = true;
     lastFlipTime = currentTime;
   }
 
-  // Reset when X drops below resetThreshold
+  //resets if the x value goes below the reset threshold
   if (xVal < resetThreshold && flipped) {
-    flipped = false; // reset
+    flipped = false;
   }
 
-  // Send flipped as 0/1 + raw X value to Unity
+  //sends bool and x value to Unity
   Serial.print(flipped);
   Serial.print(",");
   Serial.println(xVal);
