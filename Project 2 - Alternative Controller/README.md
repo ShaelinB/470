@@ -27,7 +27,7 @@ During the process I had all the materials needed to complete this project with 
 
 Before building the circuit, I had to make sure any battery or USB was disconnected.
 
-Step 1: I connected the acclerometer to the Arduino.
+Step 1: I connected the accelerometer to the Arduino.
 The VCC pin on the sensor went to 5V.
 The GND pin on the sensor went to GND.
 The X-OUT pin on the sensor went to A0.
@@ -37,12 +37,12 @@ Using the male headers the accelerometer gave me I was able to connect the femal
 I also combined 2 female wires to a male to male jumper wire to increase the movement I can do with the pan. 
 Then using another male to male jumper wire I attached the female wires to the pins in the Arduino.
 Afterwards I took a small piece of foam and put it under the accelerometer so it can be flat on the frying pan.
-Then I taped it down aligning the x-axis with the handle.
+Then I taped it down, aligning the x-axis with the handle.
 
 <img src="Circuit.jpeg" alt="Circuit" width = 500>
 
 Step 2: I then uploaded the code to the Arduino and Unity.
-How it works is in the Arduino IDE the acclerometer checks the voltage from the X-OUT pin and checks if it crosses the threshold and it's previous state was not flipped. 
+How it works is in the Arduino IDE the accelerometer checks the voltage from the X-OUT pin and checks if it crosses the threshold and its previous state was not flipped. 
 If it wasn't flipped it now tells Unity that it was flipped along with the voltage.
 Once the voltage passes the reset threshold it allows a flip to be registered again.
 This is to prevent the sensor detecting flips back to back.
@@ -78,7 +78,7 @@ Below is also a schematic view of the project as well.
 ## Summary
 
 Overall, this was a very fun project and I'm proud of what I made.
-The main challenge with this project was the code because sometimes data would be invalid so I had to add a bunch of checks to make sure no errors occured.
+The main challenge with this project was the code because sometimes data would be invalid so I had to add a bunch of checks to make sure no errors occurred.
 The circuit on the other hand was very easy to make, all I really had to do was attach wires together.
 
 To learn more about the process check out the Post Mortem video down below.
@@ -92,3 +92,4 @@ ADXL335 3-Axis Accelerometer Module, Analog Output, GY-61: https://www.amazon.co
 How to Use an Accelerometer with Arduino (Lesson #41): https://www.youtube.com/watch?v=zpV7ac3ecl4
 
 Super Mario Party Jamboree: https://www.nintendo.com/us/store/products/super-mario-party-jamboree-switch/
+
