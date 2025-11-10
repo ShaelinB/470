@@ -46,6 +46,19 @@ How it works is in the Arduino IDE the acclerometer checks the voltage from the 
 If it wasn't flipped it now tells Unity that it was flipped along with the voltage.
 Once the voltage passes the reset threshold it allows a flip to be registered again.
 This is to prevent the sensor detecting flips back to back.
+In Unity it starts by spawning a pancake and setting values to the variables.
+Then it checks if you have less than 3 bad reviews.
+If you have less the game continues, otherwise you're fired and the game is over.
+When the game continues, it reads the data from the Arduino and sees if a flip occured.
+If it did it checks when you flipped the pancake and if it's the first or second flip.
+It changes the sprite and sets the state using the PancakeState enum.
+If it's the second flip it then calculates the score and updates the text on screen.
+If you run the timer down to 0 that side is automatically overcooked.
+It calculates the score by adding the states together.
+If you have 1 or more it's a good review otherwise it's bad.
+This allows the player to have one side of their pancake under or over cooked if the other side is perfect.
+Once a pancake is cooked it then spawns a new pancake.
+This cycle continues until you recieve 3 bad reviews.
 
 <img src="Code 1.png" alt="Code 1" width = 500>
 <img src="Code 2.png" alt="Code 2" width = 500>
@@ -60,15 +73,17 @@ The video below demonstrates the Alternative Controller.
 
 Below is also a schematic view of the project as well.
 
-<img src="Schematic.png" alt="Schematic" width = 1000>
+<img src="Schematic.png" alt="Schematic" width = 500>
 
 ## Summary
 
 Overall, this was a very fun project and I'm proud of what I made.
+The main challenge with this project was the code because sometimes data would be invalid so I had to add a bunch of checks to make sure no errors occured.
+The circuit on the other hand was very easy to make, all I really had to do was attach wires together.
 
 To learn more about the process check out the Post Mortem video down below.
 
-[![Post Mortem](https://img.youtube.com/vi/ktTKRMgm1wY/0.jpg)](https://youtu.be/ktTKRMgm1wY)
+[![Post Mortem](https://img.youtube.com/vi/ktTKRMgm1wY/0.jpg)]
 
 ## Resources
 
