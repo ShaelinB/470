@@ -83,7 +83,7 @@ The circuit on the other hand was very easy to make, all I really had to do was 
 
 To learn more about the process check out the Post Mortem video down below.
 
-[![Post Mortem](https://img.youtube.com/vi/ktTKRMgm1wY/0.jpg)]
+[![Post Mortem](https://img.youtube.com/vi/Sm3jcvcNs_o/0.jpg)](https://youtu.be/Sm3jcvcNs_o)
 
 ## Resources
 
