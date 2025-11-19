@@ -30,7 +30,7 @@ Step 3: I connected the potientiometers to the Arduino. The left leg went to pow
 
 If you wanted to make the circuit in TinkerCad this is how you'd set it up.
 
-<img src="DigitalCircuit.jpeg" alt="Digital Circuit" width = 500>
+<img src="DigitalCircuit.png" alt="Digital Circuit" width = 500>
 
 Step 4: I then uploaded the code to the Arduino and the Processing IDE.
 How it works is the Arduino reads the two potientiometer values.
@@ -61,7 +61,7 @@ The video below demonstrates the Arduino EtchASketch.
 
 Below is also a schematic view of the project as well.
 
-<img src="Schematic.png" alt="Schematic" width = 500>
+<img src="Schematic.png" alt="Schematic" width = 1000>
 
 ## Summary
 
