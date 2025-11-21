@@ -53,7 +53,9 @@ Now you have an EtchASketch.
 At first I originally drew pixels but then there were gaps in between the lines.
 I also had to increase the frame rate because it would be too slow the line would jump drastically.
 
-<img src="Code 1.png" alt="Code 1" width = 500> <img src="Code 2.png" alt="Code 2" width = 500>
+<img src="Code 1.png" alt="Code 1" width = 500>
+
+<img src="Code 2.png" alt="Code 2" width = 500>
 
 The video below demonstrates the Arduino EtchASketch.
 
