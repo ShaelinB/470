@@ -1,4 +1,6 @@
 # Project 4: You or a Friend's Problem
+Creators: Shaelin Brown & Will Imburgia
+
 Hello there, come with use as we make a game.
 Using photoresistors and an ultrasonic sensor we are making a game where you have the sensor acts as lasers and you have to avoid it while stealing all the treasure.
 
