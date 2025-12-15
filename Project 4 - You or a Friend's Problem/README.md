@@ -16,8 +16,7 @@ The final parts list included:
 - Jumper wires
 - 1 9V battery
 - 1 DC motor
-- 1 diode
-- 1 transistor
+- 1 H-bridge
 - Ultrasonic sensor
 
 During the process we had all the materials needed to complete this project with ease.
@@ -37,7 +36,13 @@ It also went to ground through a 10 kohm resistor.
 Step 3: We connected the dc motor to the breadboard. 
 We first attached the battery's power and ground to the opposite side of the breadboard.
 We then connected both grounds together.
-Afterwards we took the dc motor and plugged its power to power.
+Afterwards we took the dc motor and connected it to the H-Bridge and connected that to the breadboard.
+The motors power went to H-bridge pin 6.
+The motors ground went to H-bridge pin 3.
+Then for the H-bridge pin 1 went to digital pin 6.
+Pin 2 went to digital pin 3.
+Pin 7 went to digital pin 2.
+Pin 8 went to power.
 
 <img src="Motor.jpeg" alt="Motor" width = 500>
 
@@ -73,10 +78,11 @@ Below is also a schematic view of the project as well.
 
 Overall, this was a very fun project and we're proud of what we made.
 One challenge we had was the photoresistors weren't dectecting anything and that's because we were using a 220 ohm resistor rather than a 10 kohm. 
+Another challege was that we initially didn't use an H-bridge so when the motor rotated the wire from the sensor would wrap around it. 
 
 To learn more about the process check out the Post Mortem video down below.
 
 [![Post Mortem](https://img.youtube.com/vi/yUN5XKVlcZ4/0.jpg)]()
-## Resources
+
 
 
