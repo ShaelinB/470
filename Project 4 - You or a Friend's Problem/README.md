@@ -53,7 +53,7 @@ The ECHO pin went to digital pin 9
 
 <img src="Sensor.jpeg" alt="Sensor" width = 500>
 
-<img src="Circuit.jpeg" alt="Circuit" width = 500>
+<img src="Ciruit.jpeg" alt="Circuit" width = 500>
 
 If you wanted to make the circuit in Tinkercad this is how you'd set it up.
 
