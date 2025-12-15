@@ -89,7 +89,7 @@ Another challege was that we initially didn't use an H-bridge so when the motor 
 
 To learn more about the process check out the Post Mortem video down below.
 
-[![Post Mortem](https://img.youtube.com/vi/yUN5XKVlcZ4/0.jpg)]()
+[![Post Mortem](https://img.youtube.com/vi/KscniQv1Fxk/0.jpg)](https://youtu.be/KscniQv1Fxk)
 
 
 
