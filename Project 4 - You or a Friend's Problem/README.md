@@ -17,7 +17,7 @@ The final parts list included:
 - 1 9V battery
 - 1 DC motor
 - 1 diode
-- 1 capacitor
+- 1 transistor
 - Ultrasonic sensor
 
 During the process we had all the materials needed to complete this project with ease.
@@ -32,17 +32,26 @@ Step 2: We connected the photoresistors to the breadboard.
 The anode went to power while the cathode went to analog pins 0 and 1.
 It also went to ground through a 10 kohm resistor.
 
+<img src="Photoresistors.jpeg" alt="Photoresistors" width = 500>
+
 Step 3: We connected the dc motor to the breadboard. 
 We first attached the battery's power and ground to the opposite side of the breadboard.
 We then connected both grounds together.
 Afterwards we took the dc motor and plugged its power to power.
-We also connected ground to _________________________________
+We also connected ground to ground through a diode.
+It also went to the middle pin of the transistor.
+The left transistor pin went to digital pin 6.
+The right transistor pin went to ground.
+
+<img src="Motor.jpeg" alt="Motor" width = 500>
 
 Step 4: We connected the ultrasonic sensor to the breadboard.
 The VCC pin went to power.
 The GND pin went to ground.
-The TRIG pin went to _________________
-The ECHO pin went to _________________
+The TRIG pin went to digital pin 10.
+The ECHO pin went to digital pin 9
+
+<img src="Sensor.jpeg" alt="Sensor" width = 500>
 
 <img src="Circuit.jpeg" alt="Circuit" width = 500>
 
