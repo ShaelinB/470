@@ -61,14 +61,20 @@ If you wanted to make the circuit in Tinkercad this is how you'd set it up.
 <img src="DigitalCircuit.png" alt="Digital Circuit" width = 500>
 
 Step 4: I then uploaded the code to the Arduino.
-
+How it works is it checks if the game is over. 
+If it's over you either win or lose which will stop the sensor and tell you if you won or lost. 
+Otherwise it the checks it the sensor has rotated for a certain amount of time.
+If it has it then switches the rotation.
+Afterwards it reads the distance from the sensor and the photoresistor values. 
+If the values passes a certain threshold you win because that means you stole all the treasure.
+If the sensor passes a certain threshold you lose because that means the sensor caught you trying to steal the treasure.
 <img src="Code 1.png" alt="Code 1" width = 500>
 
-<img src="Code 2.png" alt="Code 2" width = 500>
+<img src="Code 2.png" alt="Code 1" width = 500>
 
 The video below demonstrates the game.
 
-[![You or a Friend's Problem](https://img.youtube.com/vi/ur9j3W5CzC8/0.jpg)]()
+[![You or a Friend's Problem](https://img.youtube.com/vi/o2m2XUtprz4/0.jpg)](https://youtube.com/shorts/o2m2XUtprz4)
 
 Below is also a schematic view of the project as well.
 
