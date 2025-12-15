@@ -32,16 +32,12 @@ Step 2: We connected the photoresistors to the breadboard.
 The anode went to power while the cathode went to analog pins 0 and 1.
 It also went to ground through a 10 kohm resistor.
 
-<img src="Photoresistors.jpeg" alt="Photoresistors" width = 500>
+<img src="Photoresistor.jpeg" alt="Photoresistor" width = 500>
 
 Step 3: We connected the dc motor to the breadboard. 
 We first attached the battery's power and ground to the opposite side of the breadboard.
 We then connected both grounds together.
 Afterwards we took the dc motor and plugged its power to power.
-We also connected ground to ground through a diode.
-It also went to the middle pin of the transistor.
-The left transistor pin went to digital pin 6.
-The right transistor pin went to ground.
 
 <img src="Motor.jpeg" alt="Motor" width = 500>
 
@@ -53,7 +49,7 @@ The ECHO pin went to digital pin 9
 
 <img src="Sensor.jpeg" alt="Sensor" width = 500>
 
-<img src="Ciruit.jpeg" alt="Circuit" width = 500>
+<img src="Circuit.jpeg" alt="Circuit" width = 500>
 
 If you wanted to make the circuit in Tinkercad this is how you'd set it up.
 
