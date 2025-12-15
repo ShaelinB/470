@@ -68,6 +68,7 @@ If it has it then switches the rotation.
 Afterwards it reads the distance from the sensor and the photoresistor values. 
 If the values passes a certain threshold you win because that means you stole all the treasure.
 If the sensor passes a certain threshold you lose because that means the sensor caught you trying to steal the treasure.
+
 <img src="Code 1.png" alt="Code 1" width = 500>
 
 <img src="Code 2.png" alt="Code 1" width = 500>
