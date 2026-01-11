@@ -2,7 +2,7 @@
 Creators: Shaelin Brown & Will Imburgia
 
 Hello there, come with use as we make a game.
-Using photoresistors and an ultrasonic sensor we are making a heist simulator game where you have the sensor act as a camera and you have to avoid it while stealing all the treasure.
+Using phototransistors and an ultrasonic sensor we are making a heist simulator game where you have the sensor act as a camera and you have to avoid it while stealing all the treasure.
 
 ## Materials
 
@@ -11,7 +11,7 @@ Luckily all the materials needed we had so we didn't need to buy anything which 
 The final parts list included:
 
 - Arduino Uno
-- 2 Photoresistors
+- 2 phototransistors
 - 2 10 kohm resistors
 - Jumper wires
 - 1 9V battery
@@ -27,7 +27,7 @@ Before building the circuit, we had to make sure any battery or USB was disconne
 
 Step 1: We connected the 5V and GND pin to the breadboard.
 
-Step 2: We connected the photoresistors to the breadboard.
+Step 2: We connected the phototransistors to the breadboard.
 The anode went to power while the cathode went to analog pins 0 and 1.
 It also went to ground through a 10 kohm resistor.
 
@@ -84,7 +84,7 @@ Below is also a schematic view of the project as well.
 ## Summary
 
 Overall, this was a very fun project and we're proud of what we made.
-One challenge we had was the photoresistors weren't dectecting anything and that's because we were using a 220 ohm resistor rather than a 10 kohm. 
+One challenge we had was the phototransistors weren't dectecting anything and that's because we were using a 220 ohm resistor rather than a 10 kohm. 
 Another challege was that we initially didn't use an H-bridge so when the motor rotated the wire from the sensor would wrap around it. 
 
 To learn more about the process check out the Post Mortem video down below.
